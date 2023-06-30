@@ -1,0 +1,36 @@
+.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .light .navbar-brand {
+    color: #000000;
+  }
+  
+  .light .nav-link {
+    color: #000000;
+  }
+  
+  .light .btn {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  
+  /* Estilos para el tema oscuro */
+  .dark {
+    background-color: #212121;
+    color: #ffffff;
+  }
+  
+  .dark .navbar-brand {
+    color: #ffffff;
+  }
+  
+  .dark .nav-link {
+    color: #ffffff;
+  }
+  
+  .dark .btn {
+    color: #ffffff;
+    background-color: #212121;
+  }

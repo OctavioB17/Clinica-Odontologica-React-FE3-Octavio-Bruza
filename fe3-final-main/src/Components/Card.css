@@ -1,0 +1,82 @@
+.Card {
+  background-color: var(--card-background);
+  color: var(--card-text);
+  border: 1px solid var(--card-border);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.CardBody {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.CardContent {
+  padding: 10px;
+}
+
+.CardTitle {
+  text-decoration: none;
+  color: var(--card-title);
+  font-weight: bold;
+}
+
+.CardTitle:hover {
+  text-decoration: underline;
+}
+
+.Card p {
+  margin: 5px 0;
+}
+
+.Card button {
+  background-color: var(--button-background);
+  color: var(--button-text);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Estilos para el tema claro */
+.light {
+  --card-background: #f9f9f9;
+  --card-text: #333;
+  --card-border: #ccc;
+  --card-title: #007bff;
+  --button-background: #007bff;
+  --button-text: #fff;
+}
+
+/* Estilos para el tema oscuro */
+.dark {
+  --card-background: #333;
+  --card-text: #f9f9f9;
+  --card-border: #666;
+  --card-title: #00bfff;
+  --button-background: orange;
+  --button-text: #fff;
+}
+
+.dark button {
+  border-radius: 10px;
+}
+
+.light button {
+  border-radius: 10px;
+}
+
+.CardFull {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  border: 1px solid grey;
+}
+
+.WrapperCardFull {
+  display: flex;
+  width: 100vw;
+  padding: 1vw;
+  align-items: center;
+  justify-content: center;
+}
